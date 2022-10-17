@@ -242,8 +242,8 @@ This issue is unrelated to unauthorized users being able to read files. It is po
 
 ### CWE Assignments
 
-Jenkins Project: **CWE-120: Improper Restriction of Operations within the Bounds of a Memory Buffer**  
-NVD: **CWE-119: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')**  
+Jenkins Project: **CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer**  
+NVD: **CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')**  
 
 ### Jenkins Project Justification
 
