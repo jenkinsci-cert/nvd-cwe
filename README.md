@@ -114,6 +114,16 @@ NVD: **CWE-269: Improper Privilege Management**
 Same problem as CWE-2022-23116 in a different component.
 
 
+## [CVE-2022-25180](https://nvd.nist.gov/vuln/detail/CVE-2022-25180)
+
+### CVE Assignents
+
+Jenkins Project: **CWE-522: Insufficiently Protected Credentials**  
+NVD: **CWE-319: Cleartext Transmission of Sensitive Information**
+
+The password is never transmitted in plain text, that's not the problem.
+
+
 ## [CVE-2022-27195](https://nvd.nist.gov/vuln/detail/CVE-2022-27195)
 
 ### CVE Assignents
@@ -221,6 +231,18 @@ Use of CWE-862 here is consistent with many other CVEs categorized as CWE-862 th
 Additionally, NVD inconsistently assigns CWE-276, CWE-281, CWE-668, and CWE-732 for instances of the same problem.
 
 
+## [CVE-2022-29049](https://nvd.nist.gov/vuln/detail/CVE-2022-29049)
+
+### CWE Assignments
+
+Jenkins Project: **CWE-20: Improper Input Validation**  
+NVD: **CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')**
+
+### Jenkins Project Justification
+
+XSS is only one of the potential resulting impacts, the actual problem is the lack of validation.
+
+
 ## [CVE-2022-30945](https://nvd.nist.gov/vuln/detail/CVE-2022-30945)
 
 ### CWE Assignments
@@ -250,6 +272,18 @@ NVD: **CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Over
 Size of input is checked, but incorrectly.
 
 
+## [CVE-2022-30966](https://nvd.nist.gov/vuln/detail/CVE-2022-30966)
+
+### CWE Assignments
+
+Jenkins Project: **CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')**  
+NVD: **CWE-116: Improper Encoding or Escaping of Output**  
+
+### Jenkins Project Justification
+
+Consistency with numerous other CVEs of alike problems on which NVD agrees: CVE-2022-30960, CVE-2022-30961, CVE-2022-30962, CVE-2022-30963, CVE-2022-30964, CVE-2022-30965, CVE-2022-30967, CVE-2022-30968
+
+
 ## [CVE-2022-34175](https://nvd.nist.gov/vuln/detail/CVE-2022-34175)
 
 ### CWE Assignments
@@ -276,6 +310,18 @@ NVD: **CWE-522: Insufficiently Protected Credentials**
 ### Jenkins Project Justification
 
 The credentials are never disclosed here, just the identifiers assigned to them.
+
+
+## [CVE-2022-36884](https://nvd.nist.gov/vuln/detail/CVE-2022-36884)
+
+### CVE Assignents
+
+Jenkins Project: **CWE-200: Exposure of Sensitive Information to an Unauthorized Actor**  
+NVD: **CWE-306: Missing Authentication for Critical Function**
+
+### Jenkins Project Justification
+
+The fix involves a secret token that does not constitute authentication, so the lack of authentication is not the problem. We're rephrasing the Jenkins advisory to make that clearer.
 
 
 ## [CVE-2022-41235](https://nvd.nist.gov/vuln/detail/CVE-2022-41235)
