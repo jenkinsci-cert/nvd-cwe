@@ -18,7 +18,7 @@ Additionally, NVD inconsistently assigns CWE-276, CWE-281, CWE-668, and CWE-732 
 
 ## [CVE-2020-2322](https://nvd.nist.gov/vuln/detail/CVE-2020-2322)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-401: Missing Release of Memory after Effective Lifetime**
@@ -30,7 +30,7 @@ The memory leaks and load generation is an intended feature of this plugin, whos
 
 ## [CVE-2022-20614](https://nvd.nist.gov/vuln/detail/CVE-2022-20614)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-732: Incorrect Permission Assignment for Critical Resource**
@@ -42,7 +42,7 @@ As no permissions are specified for the resource, CWE-862 is a better match than
 
 ## [CVE-2022-20616](https://nvd.nist.gov/vuln/detail/CVE-2022-20616)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-732: Incorrect Permission Assignment for Critical Resource**
@@ -54,7 +54,7 @@ As no permissions are specified for the resource, CWE-862 is a better match than
 
 ## [CVE-2022-20618](https://nvd.nist.gov/vuln/detail/CVE-2022-20618)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-732: Incorrect Permission Assignment for Critical Resource**
@@ -66,7 +66,7 @@ As no permissions are specified for the resource, CWE-862 is a better match than
 
 ## [CVE-2022-20620](https://nvd.nist.gov/vuln/detail/CVE-2022-20620)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-668: Exposure of Resource to Wrong Sphere**
@@ -80,7 +80,7 @@ Additionally, NVD inconsistently assigns CWE-276, CWE-281, CWE-668, and CWE-732 
 
 ## [CVE-2022-23116](https://nvd.nist.gov/vuln/detail/CVE-2022-23116)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-693: Protection Mechanism Failure**  
 NVD: **CWE-311: Missing Encryption of Sensitive Data**
@@ -92,7 +92,7 @@ Per the description, encryption did take place. The problem is that the agent-to
 
 ## [CVE-2022-23117](https://nvd.nist.gov/vuln/detail/CVE-2022-23117)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-693: Protection Mechanism Failure**  
 NVD: **CWE-269: Improper Privilege Management**
@@ -104,7 +104,7 @@ Same problem as CWE-2022-23116 in a different part of the code.
 
 ## [CVE-2022-23118](https://nvd.nist.gov/vuln/detail/CVE-2022-23118)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-693: Protection Mechanism Failure**  
 NVD: **CWE-269: Improper Privilege Management**
@@ -116,7 +116,7 @@ Same problem as CWE-2022-23116 in a different component.
 
 ## [CVE-2022-25180](https://nvd.nist.gov/vuln/detail/CVE-2022-25180)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-522: Insufficiently Protected Credentials**  
 NVD: **CWE-319: Cleartext Transmission of Sensitive Information**
@@ -126,7 +126,7 @@ The password is never transmitted in plain text, that's not the problem.
 
 ## [CVE-2022-27195](https://nvd.nist.gov/vuln/detail/CVE-2022-27195)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-538: Insertion of Sensitive Information into Externally-Accessible File or Directory**  
 NVD: **CWE-532: Insertion of Sensitive Information into Log File**
@@ -138,7 +138,7 @@ It's not a log file.
 
 ## [CVE-2022-27199](https://nvd.nist.gov/vuln/detail/CVE-2022-27199)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-276: Incorrect Default Permissions**
@@ -150,7 +150,7 @@ This is about HTTP request handling, not file permissions.
 
 ## [CVE-2022-27201](https://nvd.nist.gov/vuln/detail/CVE-2022-27201)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-693: Protection Mechanism Failure**  
 NVD: **CWE-918: Server-Side Request Forgery (SSRF)**
@@ -164,7 +164,7 @@ If this initial vulnerability explanation is rejected, it should still be CWE-61
 
 ## [CVE-2022-27205](https://nvd.nist.gov/vuln/detail/CVE-2022-27205)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-276: Incorrect Default Permissions**
@@ -176,7 +176,7 @@ This is about HTTP request handling, not file permissions.
 
 ## [CVE-2022-27206](https://nvd.nist.gov/vuln/detail/CVE-2022-27206)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-256: Plaintext Storage of a Password**  
 NVD: **CWE-311: Missing Encryption of Sensitive Data**
@@ -191,7 +191,7 @@ CWE-256 is consistent with numerous other Jenkins project CWEs for the same prob
 
 ## [CVE-2022-27215](https://nvd.nist.gov/vuln/detail/CVE-2022-27215)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-281: Improper Preservation of Permissions**
@@ -205,7 +205,7 @@ Additionally, NVD inconsistently assigns CWE-276, CWE-281, CWE-668, and CWE-732 
 
 ## [CVE-2022-28137](https://nvd.nist.gov/vuln/detail/CVE-2022-28137)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-732: Incorrect Permission Assignment for Critical Resource**
@@ -219,7 +219,7 @@ Additionally, NVD inconsistently assigns CWE-276, CWE-281, CWE-668, and CWE-732 
 
 ## [CVE-2022-28147](https://nvd.nist.gov/vuln/detail/CVE-2022-28147)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-862: Missing Authorization**  
 NVD: **CWE-281: Improper Preservation of Permissions**
@@ -314,7 +314,7 @@ The credentials are never disclosed here, just the identifiers assigned to them.
 
 ## [CVE-2022-36884](https://nvd.nist.gov/vuln/detail/CVE-2022-36884)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **CWE-200: Exposure of Sensitive Information to an Unauthorized Actor**  
 NVD: **CWE-306: Missing Authentication for Critical Function**
@@ -342,7 +342,7 @@ See documentation at https://www.jenkins.io/doc/developer/security/remoting-call
 
 ## [CVE-TODO](httpsTODO)
 
-### CVE Assignents
+### CWE Assignments
 
 Jenkins Project: **TODO**  
 NVD: **TODO**
